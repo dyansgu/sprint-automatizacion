@@ -1,0 +1,43 @@
+===============================
+Informe del sistema - mié 15 oct 2025 11:45:50 CEST
+===============================
+
+Usuarios conectados:
+dyansgu  seat0        2025-10-15 11:36 (login screen)
+dyansgu  tty2         2025-10-15 11:36 (tty2)
+
+Uso de CPU y memoria:
+top - 11:45:50 up 9 min,  1 user,  load average: 4,59, 4,01, 2,09
+Tareas: 227 total,   3 ejecutar,  224 hibernar,    0 detener,    0 zombie
+%Cpu(s): 23,8 us, 28,6 sy,  0,0 ni,  9,5 id,  9,5 wa,  0,0 hi, 28,6 si,  0,0 st 
+MiB Mem :   3820,6 total,    113,1 libre,   1181,0 usado,   2840,1 búf/caché    
+MiB Intercambio:   4096,0 total,   2843,8 libre,   1252,2 usado.   2639,6 dispon
+
+    PID USUARIO   PR  NI    VIRT    RES    SHR S  %CPU  %MEM     HORA+ ORDEN
+   3929 dyansgu   20   0    5832   2044   1916 D  36,4   0,1   0:32.92 du
+   1326 dyansgu   20   0 3958380 102068  38932 S   9,1   2,6   0:40.87 gnome-s+
+   1915 dyansgu   39  19  768064  33764   7924 R   9,1   0,9   1:02.06 tracker+
+               total       usado       libre  compartido   búf/caché  disponible
+Mem:           3,7Gi       1,2Gi       112Mi        54Mi       2,8Gi       2,6Gi
+Inter:         4,0Gi       1,2Gi       2,8Gi
+
+Espacio en disco:
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+tmpfs            383M   1,5M  381M   1% /run
+/dev/sda2         49G    27G   20G  58% /
+tmpfs            1,9G    39M  1,9G   3% /dev/shm
+tmpfs            5,0M   8,0K  5,0M   1% /run/lock
+tmpfs            383M   132K  382M   1% /run/user/1000
+
+Últimos errores del sistema (dmesg):
+oct 15 11:30:19 dyansgu-VirtualBox gdm3[1071]: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+oct 15 11:30:19 dyansgu-VirtualBox gdm3[1071]: Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+oct 15 11:30:20 dyansgu-VirtualBox systemd[1121]: Failed to start app-gnome-xdg\x2duser\x2ddirs-1342.scope - Application launched by gnome-session-binary.
+oct 15 11:30:24 dyansgu-VirtualBox systemd[1121]: Failed to start app-gnome-spice\x2dvdagent-1504.scope - Application launched by gnome-session-binary.
+-- Boot c4d27732c0b6498eafdc42446b653acc --
+oct 15 11:36:38 dyansgu-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+oct 15 11:36:38 dyansgu-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+oct 15 11:36:38 dyansgu-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+oct 15 11:36:43 dyansgu-VirtualBox gdm-autologin][1052]: gkr-pam: couldn't unlock the login keyring.
+oct 15 11:36:43 dyansgu-VirtualBox gdm3[1039]: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+oct 15 11:36:43 dyansgu-VirtualBox gdm3[1039]: Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
