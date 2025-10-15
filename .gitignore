@@ -1,0 +1,41 @@
+# === Python ===
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.log
+*.env
+*.ini
+*.sqlite3
+db.sqlite3
+.mypy_cache/
+.pytest_cache/
+.coverage
+.cache/
+
+# === Bash / Linux ===
+*.bak
+*.tmp
+*.swp
+*~
+*.log
+*.out
+*.pid
+output/
+logs/
+temp/
+.DS_Store
+Thumbs.db
+
+# === IDEs ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === Otros ===
+*.zip
+*.tar
+*.gz
